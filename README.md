@@ -46,3 +46,6 @@ cd second-brain-app
 ```
 
 ## ScreenShot 
+
+<img width="1824" height="929" alt="Screenshot 2025-11-07 171320" src="https://github.com/user-attachments/assets/9262cf57-ac43-462c-8f47-76de3fd4f2cf" />
+
