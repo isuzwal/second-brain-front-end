@@ -51,7 +51,7 @@ export default function SignupPage() {
   }
   return (
     <div className=" flex justify-center items-center min-h-screen">
-            <div className="w-full max-w-md  rounded-lg shadow-lg border border-gray-200 p-6 sm:p-8">
+            <div className="w-full max-w-md  rounded-lg  p-6 sm:p-8">
       <Form {...form}>
         <form  onSubmit={form.handleSubmit(Signuphandle)}   className="space-y-6">
           <FormField

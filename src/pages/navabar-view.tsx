@@ -38,7 +38,7 @@ export default function Navbar() {
             <Link to="/dashbord">
               <Button
                 variant="default"
-                className="w-full cursor-pointer bg-purple-600 hover:bg-purple-700 text-white"
+                className="w-full cursor-pointer bg-primary text-white"
               >
                 Dashboard
               </Button>
@@ -56,7 +56,7 @@ export default function Navbar() {
             <Link to="/login">
               <Button
                 variant="outline"
-                className="w-full cursor-pointer border-purple-400 text-purple-600"
+                className="w-full cursor-pointer border-primary text-foreground"
               >
                 Start
               </Button>
@@ -112,7 +112,7 @@ export default function Navbar() {
                 <Link to="/login" onClick={() => setExpand(false)}>
                   <Button
                     variant="outline"
-                    className="w-full cursor-pointer border-purple-400 text-purple-600 dark:text-white"
+                    className="w-full cursor-pointer border-primary text-foreground dark:text-white"
                   >
                     Start
                   </Button>
@@ -120,7 +120,7 @@ export default function Navbar() {
                 <Link to="/signup" onClick={() => setExpand(false)}>
                   <Button
                     variant="default"
-                    className="w-full cursor-pointer bg-purple-600 hover:bg-purple-700 text-white"
+                    className="w-full cursor-pointer bg-primary text-white"
                   >
                     Signup
                   </Button>

@@ -25,7 +25,7 @@ import { Link } from "react-router";
     },
     {
       text: "effortlessly.",
-      className: "text-purple-500 dark:text-blue-500",
+      className: "text-blue-500 dark:text-blue-500",
     },
   ];
 export function GridSmallBackgroundDemo() {
