@@ -24,6 +24,7 @@ export function CreateContent({ open, onClose }: OpenmodelPropps) {
 
     try{
       setLoading(true);
+    
       const res = await axios.post(
         `${import.meta.env.VITE_BACKEND_URL}/api/v1/brain/user/add-content`,
         { title: title, link: link, icons: icons, tags: tags ,brain:brain},
@@ -50,8 +51,8 @@ export function CreateContent({ open, onClose }: OpenmodelPropps) {
       <div className="relative w-full max-w-md rounded-2xl bg-white shadow-xl p-6">
         <button
           onClick={onClose}
-          className="absolute cursor-pointer top-3 right-3 rounded-full bg-purple-600 text-white p-1 hover:bg-purple-700 transition">
-          <X className="w-4 h-4" />
+          className="absolute cursor-pointer top-3 right-3 rounded-full border border-primary text-neutral-800 p-1  transition">
+          <X className="w-5 h-5" />
         </button>
 
         <h2 className="text-lg font-semibold text-gray-800 mb-4">Add New Content</h2>
@@ -104,7 +105,7 @@ export function CreateContent({ open, onClose }: OpenmodelPropps) {
           <button
            disabled={loading}
             type="submit"
-            className="mt-2 w-full cursor-pointer  rounded-lg bg-purple-600 text-white py-2 font-medium hover:bg-purple-700 transition">
+            className="mt-2 w-full cursor-pointer  rounded-lg bg-primary text-white py-2 font-medium hover:bg-primary/40 transition">
                 {loading ?(
                 <span className="flex w-full justify-center gap-2 items-center">
 

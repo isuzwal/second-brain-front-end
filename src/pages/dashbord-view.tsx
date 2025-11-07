@@ -43,7 +43,7 @@ export default function DashbordPage() {
           },
         }
       );
-      // @ts-ignore
+      
       // @ts-ignore
       setContent(res.data.data);
     } catch (error:any) {
@@ -66,7 +66,7 @@ export default function DashbordPage() {
         onClick={()=>setSharemodel(true)}
           variant={"secondary"}
           title="Share"
-          className="flex border-2 cursor-pointer px-3 border-purple-300 hover:bg-primary/20 text-primary/60">
+          className="flex border-2 cursor-pointer px-3 border-primary hover:bg-primary/20 text-primary/60">
           <Share2Icon size={24} />
           Share
         </Button>

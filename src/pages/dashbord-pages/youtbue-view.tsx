@@ -33,13 +33,13 @@ export default function YoutubePage() {
             },
           }
         );
-        // @ts-ignore
-          console.log(res.data)
+       
+      
          // @ts-ignore
         setContent(res.data.data);
       } catch (error: any) {
         setError(error.response?.message || "Something went wrong  try again !");
-        console.log(error.message);
+      
       } finally {
         setLoading(false);
       }
