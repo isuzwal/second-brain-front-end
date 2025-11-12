@@ -1,6 +1,6 @@
-#  Second Brain Web App
+#  Orbix Web App
 
-Second Brain is a modern web app that helps you **organize, store, and retrieve knowledge** like never before.  
+Orbix is a modern web app that helps you **organize, store, and retrieve knowledge** like never before.  
 Think of it as your personal "digital brain" — where ideas, notes, bookmarks, and resources live in one place.  
 
 ---
