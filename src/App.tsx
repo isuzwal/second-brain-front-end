@@ -8,7 +8,7 @@ import AppLayout from "./dashbord-layout/dashbord-view-layout";
 import YoutubePage from "./pages/dashbord-pages/youtbue-view";
 import Twitterpage from "./pages/dashbord-pages/twitter-view";
 import SoptifyPage from "./pages/dashbord-pages/spotify-view";
-import Page from "./pages/hash-page/Pgae"
+import Page from "./pages/hash-page/share-page"
 
 import Notesview from "./pages/dashbord-pages/notes-view";
 import Imagesview from "./pages/dashbord-pages/images-view";

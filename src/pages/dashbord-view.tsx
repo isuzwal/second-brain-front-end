@@ -65,7 +65,7 @@ export default function DashbordPage() {
     <div className=" flex  flex-col  w-full  ">
       <div className="w-full flex  justify-end gap-2 px-2  py-1.5 items-center">
         <Button
-        onClick={()=>setSharemodel(true)}
+          onClick={()=>setSharemodel(true)}
           variant={"secondary"}
           title="Share"
           className="flex border-2 cursor-pointer px-3 border-primary hover:bg-primary/20 text-primary/60">

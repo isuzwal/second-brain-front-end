@@ -14,6 +14,8 @@ interface ContentItem {
     username: string;
   };
   createdAt: string;
+  image:string
+  description:string
 }
 export default function YoutubePage() {
   const token = localStorage.getItem("token");
@@ -65,6 +67,8 @@ export default function YoutubePage() {
               tags={item.tags}
               username={item.userId.username}
               upload={item.createdAt}
+              image={item.image}
+              description={item.description}
             />
           ))}
         </div>

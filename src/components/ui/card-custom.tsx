@@ -47,7 +47,6 @@ export function Card({ title, link, brain, tags, username, upload, image,descrip
         </a>
       </div>
 
-      {/* Image or thumbnail */}
       {image && (
         <div className="bg-neutral-100 p-2">
           <a href={link} target="_blank" rel="noopener noreferrer">
@@ -60,9 +59,9 @@ export function Card({ title, link, brain, tags, username, upload, image,descrip
         </div>
       )}
 
-      {/* Main Content */}
+   
       <div className="p-4 space-y-4 flex flex-col">
-        {/* YouTube */}
+     
         {brain === "youtube" && (
           <div className="w-full aspect-video rounded-lg overflow-hidden">
             <iframe
@@ -77,7 +76,7 @@ export function Card({ title, link, brain, tags, username, upload, image,descrip
           </div>
         )}
 
-        {/* Twitter */}
+       
         {brain === "twitter" && (
           <div className="w-full overflow-x-auto">
             <blockquote className="twitter-tweet" data-theme="light">
@@ -86,7 +85,7 @@ export function Card({ title, link, brain, tags, username, upload, image,descrip
           </div>
         )}
 
-        {/* Spotify */}
+    
         {brain === "spotify" && (
           <div className="w-full rounded-lg overflow-hidden">
             <iframe
@@ -100,9 +99,9 @@ export function Card({ title, link, brain, tags, username, upload, image,descrip
           </div>
         )}
          <div>
-          <p>{description}</p>
+          <p className="text-neutral-500 text-[12px]">{description}</p>
          </div>
-        {/* Tags + Footer */}
+      
         <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-3 ">
           <div className="flex flex-wrap">
             {tags.map((tag, idx) => (
